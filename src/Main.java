@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -6,14 +7,6 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        List<Hero> party = new ArrayList<>();
-        party.add(new Hero("김하나", 100));
-        party.add(new Hero("이민수", 85));
-        party.add(new Hero("박서준", 120));
 
-        for (Hero hero : party) {
-            hero.takeDamage(30);
-            hero.describe();
-        }
     }
 }
